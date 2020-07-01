@@ -2,3 +2,5 @@
 .idea/modules.xml
 out/production/algorithm/com/wilson/java/Main.class
 out/production/algorithm/com/wilson/java/MissingNumberInArray.class
+out/production/algorithm/com/wilson/java/LongestPalindRome.class
+out/production/algorithm/com/wilson/java/TowSum.class
