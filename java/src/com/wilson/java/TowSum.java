@@ -10,30 +10,12 @@ import java.util.Map;
 //  给定 nums = [2, 7, 11, 15], target = 9
 //  因为 nums[0] + nums[1] = 2 + 7 = 9
 //  所以返回 [0, 1]
+//https://leetcode-cn.com/problems/two-sum/solution/liang-shu-zhi-he-by-leetcode-2/
 public class TowSum {
 
     public static void main(String[] args) {
         System.out.println("Hello World!");
     }
-
-    //条件是一个数组   和目标数字   求和是这个数字的数组的下标
-    public int[] twoSum1(int[] nums, int target) {
-        int[] a = new int[2];
-        for (int i = 0; i < nums.length - 1; i++) {
-            for (int j = i + 1; j < nums.length; j++) {
-                if (nums[i] == nums[j]) {
-                    a[0] = nums[i];
-                    a[1] = nums[j];
-                }
-
-            }
-        }
-
-
-        return a;
-    }
-
-
 
 
 

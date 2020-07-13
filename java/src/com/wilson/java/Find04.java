@@ -11,7 +11,7 @@ import java.util.Set;
  * 该二维数组中的一个数，小于它的数一定在其左边，大于它的数一定在其下边。
  * 因此，从右上角开始查找，就可以根据 target 和当前元素的大小关系来缩小查找区间，当前元素的查找区间为左下角的所有元素。
  */
-public class Find {
+public class Find04 {
     public static boolean Find(int target, int[][] matrix) {
         //数组为空 或则二维数据的行为0 或则列为0 就直接return
         if (matrix == null || matrix.length == 0 || matrix[0].length == 0)

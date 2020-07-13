@@ -25,7 +25,7 @@ public class Duplicate {
         int[] nums = {2, 3, 1, 0, 2, 5};
         int length = 6;
         int[] duplication = new int[6];
-        duplicate1(nums, length, duplication);
+        duplicate(nums, length, duplication);
         System.out.print(duplication[0]);
     }
 
@@ -77,35 +77,4 @@ public class Duplicate {
     }
 
 
-
-
-
-    public static void duplicate1(int[] nums, int length, int[] duplicate) {
-        if (nums == null || length <= 0)
-            return;
-        for (int i = 0; i < length; i++) {
-            if (nums[i] != i) {
-
-                if (nums[i] == nums[nums[i]]) {
-                    duplicate[0] = nums[i];
-
-                    return;
-                }
-
-                swap2(nums, i, nums[i]);
-            }
-
-
-        }
-
-    }
-
-
-    public static void swap2(int[] nums, int i, int j) {
-
-        int temp = nums[i];
-        nums[i] = nums[j];
-        nums[j] = temp;
-
-    }
 }
