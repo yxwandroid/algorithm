@@ -1,4 +1,4 @@
-package com.wilson.java;
+package com.wilson.java.code;
 
 import java.util.HashMap;
 import java.util.Map;

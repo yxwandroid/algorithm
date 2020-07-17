@@ -17,11 +17,12 @@ public class fib509 {
     public static int fib(int n) {
         if (n <= 1)
             return n;
-        int ee = fib(n-1)+fib(n-2);
-        return ee;
+        int sum = fib(n-1)+fib(n-2);
+        return sum;
     }
 
 // 链接：https://juejin.im/post/5ea3971b6fb9a03c64232521
+    //思路for循环解法
     public static  int fibonacci(int n) {
         int[] res = {0, 1};
         if (n < 2) {
@@ -29,10 +30,15 @@ public class fib509 {
         }
         int first = 0;
         int second = 1;
+
         int fibn = 0;
+
         for (int i = 2; i <= n; i++) {
+
             fibn = first + second;
+
             first = second;
+
             second = fibn;
         }
         return fibn;
