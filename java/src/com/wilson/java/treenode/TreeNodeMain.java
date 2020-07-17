@@ -51,7 +51,7 @@ public class TreeNodeMain {
 
 
         while (queue.peek() != null) {
-            System.out.println(queue.poll());
+            System.out.println(queue.peek());
         }
 
     }

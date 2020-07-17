@@ -1,5 +1,5 @@
-package com.wilson.java;
-
+package com.wilson.java.code;
+//斐波那契数
 public class fib509 {
 
     public static void main(String[] args) {
@@ -10,7 +10,6 @@ public class fib509 {
         System.out.println(fibonacci);
 
     }
-
 
 
     //递归方式

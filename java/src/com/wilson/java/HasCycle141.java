@@ -81,16 +81,3 @@ class HasCycle {
 
 }
 
-class ListNode {
-    ListNode next;
-    int index;
-
-
-    public ListNode(int index) {
-        this.index = index;
-    }
-
-    public ListNode() {
-    }
-}
-

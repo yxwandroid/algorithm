@@ -1,5 +1,5 @@
-package com.wilson.java;
-
+package com.wilson.java.code;
+//24. 两两交换链表中的节点
 public class SwapPair24 {
 
     public static void main(String[] arg){
@@ -34,8 +34,6 @@ public class SwapPair24 {
     }
 
 //    https://leetcode-cn.com/problems/swap-nodes-in-pairs/solution/di-gui-he-fei-di-gui-liang-chong-jie-fa-by-reedf-5/
-
-
     public ListNode1 Swap(ListNode1 head){
         if (head==null||head.next==null)
             return  head;
